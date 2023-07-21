@@ -1,0 +1,1911 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* common_section_start */
+
+a{
+ text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+:root{
+    --banner_rep_color:#d7c4bccc;
+    --banner_text-color:#fff7f5;
+    --banner_rep_color2:#91c195;
+ --bg-cmn-1:#1A6C60;
+ --bg-acc-1:#DED1D8;
+ --bg-cmn-2:white;
+ --bg-cmm-3:#FFF0F0;
+ --btn-cmm-1:#00A662;
+ --bg-cmm-4:#B4B4B4;
+ --bg-cmm-5:#DF3030;
+ --bg-cmmn-6:#FFEAEA;
+ --btn-cmm-2:#6C6C6C;
+--btn-cmm-bla:black;
+--cmn-border:#1A6C60;
+--room_title_bg:#FFC408;
+--room_title_bg2:#F3F3F3;
+--room_title_bg3:#FFFBF0;
+--modal_bg:rgba(36, 36, 36, 0.89);
+}
+
+/* common_section_end */
+/* header_section_start */
+
+.header_section_main{
+  background-color: var(--bg-cmn-1);
+}
+.header_section_main ul{
+
+}
+.header_section_main ul .nav-item{
+
+}
+.header_section_main ul .nav-item .nav-link{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+ .header_section_main .nav-item .dropdown-menu{
+    background-color:#DF3030;
+ }
+
+ .header_section_main .nav-item .dropdown-menu .dropdown-item{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    color: white;
+ }
+.header_section_main .nav-item .dropdown-menu .dropdown-item:hover{
+background-color:black;
+
+}
+.header_section_main .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.header_section_main .btn{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FDFDFD;
+    border-color: white;
+    border-radius: 22px;
+}
+/* header_section_end */
+/* banner_section_start */
+.banner_section_start{
+    position: relative;
+    height: 550px;
+}
+.banner_section_start::before{
+content: "";
+background-image: url("../images/FHO.jpg");
+background-repeat: no-repeat;
+background-position:left;
+background-size: cover;
+position: absolute;
+top:0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+opacity:1;
+}
+
+.banner_section_left{
+position: relative;
+}
+.banner_section_left_title{
+
+}
+.banner_section_left_title h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color:var(--banner_rep_color);
+}
+    /* tab_section_start */
+.banner_left_tab_section{
+
+}
+.banner_left_tab_section .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    background-color:var(--banner_rep_color);
+    padding: 4px 15px;
+    border-radius: 6px;
+    border: 1px solid var(--cmn-border);
+    margin-top: 10px;
+}
+.banner_left_tab_one{
+
+}
+.banner_left_tab_one_details {
+
+}
+.banner_left_tab_one_details p{
+font-size: 14px;
+font-family: 'Playfair Display';
+}
+.banner_left_tab_one_icon{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.banner_left_tab_one_icon .svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 1.5em;
+    overflow: visible;
+    vertical-align: -.125em;
+    color:var(--bg-cmn-1);
+    border: 1px solid var(--cmn-border);
+    border-radius: 50%;
+    padding: 9px;
+}
+.banner_left_tab_one_icon p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* black 1 */
+    color: #2B2B2B;
+    margin: 0px;
+}
+.banner_left_tab_one_title{
+
+}
+ /* tab_section_end */
+/* left_end */
+.banner_section_right{
+position: relative;
+}
+
+.banner_section_right_one{
+
+}
+.banner_section_r_one{
+    border-radius:10px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    }
+
+    .banner_section_r_one:hover{
+        background-color:var(--bg-cmm-4);
+
+    }
+.banner_section_r_one_img{
+
+}
+.banner_r_img_1{
+    border: 1px solid var(--cmn-border);
+    border-radius: 50%;
+    width:80%;
+}
+.banner_r_one_bg_1{
+    background-color:var(--banner_rep_color2);
+}
+.banner_r_one_bg_2{
+    background-color:#F9E6E8;
+}
+.banner_section_r_one_para{
+
+}
+.banner_section_r_one_para p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2B2B2B;
+    margin: 0px;
+}
+/* modal_details_start */
+.modal-bg{
+    background-color: var(--modal_bg);
+    color: var(--bg-cmm-3);
+}
+.modal-btn{
+    background-color: var(--bg-cmm-4);
+}
+.modal-f1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+.modal-f2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+}
+.modal-f3{
+
+}
+.modal-heade{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    color:var(--bg-cmm-4);
+}
+.modal_body_one{
+
+}
+.modal_body_one input::file-selector-button{
+    font-weight: bold;
+    color:var(--bg-cmm-5);
+    padding: 0.5em;
+    border:none;
+    border-radius: 3px;
+    font-size:18px;
+}
+.modal-body-padd{
+padding: 10px 10px;
+font-size: 20px;
+}
+.modal_body_down_one_btn{
+
+}
+.modal_body_down_one_btn .btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--bg-cmmn-6);
+    background-color: var(--bg-cmm-4);
+    border-radius: 33.5px;
+    width: 40%;
+}
+.modal_body_down_one_btn .btn:hover{
+    background-color:var(--bg-cmn-1);
+    color:var(#00A662);
+}
+/* modal_details_end */
+ .banner_left_tab_section .accordion-body{
+    background-color:var(--bg-acc-1);
+ }
+/* banner_section_end */
+/* consultation_room_section_start */
+.consultation_room_section_start{
+height:auto;
+position: relative;
+background-color: #2B2B2B;
+}
+.consultation_room_section_start::before{
+    content: "";
+    background-image: url("../images/th.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.3;
+}
+.consultation_room_mid{
+position: relative;
+}
+.consultation_room_one{
+text-align: center;
+}
+.consultation_room_one h3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color:white;
+    margin: 3px 0px;
+}
+.consultation_room_one p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+    margin: 3px 0px;
+}
+/* consultation_room_section_end */
+/* know_about_naviea_section_start */
+.know_about_naviea_section_start{
+background-color: #FFF2F2;
+}
+.know_about_naviea_title{
+ text-align: center;
+}
+.know_about_naviea_title hr{
+border:none;
+width:20%;
+height: 3px;
+background-color:var(--cmn-border);
+display:inline-block;
+opacity: 1;
+}
+.know_about_naviea_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+.know_about_naviea_left{
+border-radius: 10px;
+overflow: hidden;
+border: 5px solid white;
+text-align: center;
+}
+.youtube_btn_section{
+ text-align: center;
+}
+.youtube_btn_section .btn{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FDFDFD;
+    background-color:var(--bg-cmn-1);
+    padding: 10px 50px;
+}
+.youtube_btn_section .btn:hover{
+background-color:var(--bg-cmm-4);
+color: var(--btn-cmm-bla);
+}
+/* know_about_naviea_section_end */
+/* diagonistic_section_start */
+.diagonistic_section_start{
+
+}
+.diagonistic_section_title{
+ text-align: center;
+}
+.diagonistic_section_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #2B2B2B;
+}
+.DIAGNOSTIC_test_section_start{
+
+}
+.DIAGNOSTIC_test_details{
+
+}
+.DIAGNOSTIC_test_d_up{
+ text-align: center;
+}
+.DIAGNOSTIC_test_d_up ul{
+    justify-content:center;
+    align-content:space-around;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.DIAGNOSTIC_test_d_up .d_text_title{
+    border: 1px solid var(--cmn-border);
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color:var(--bg-cmm-3);
+padding: 14px 20px;
+background-color: var(--bg-cmn-1);
+border-radius: 10px;
+
+}
+.DIAGNOSTIC_test_d_up .d_text_title_li{
+margin:10px;
+}
+.DIAGNOSTIC_test_d_up .d_text_title:hover{
+background-color: var(--bg-cmn-1);
+color: white;
+}
+/* up_end */
+.DIAGNOSTIC_test_d_down{
+
+}
+.DIAGNOSTIC_test_details_one_mid{
+
+text-align: center;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.diagoni_bg_img{
+ background-image:url(../images/th2.png);
+}
+.diagoni_bg_img2{
+    background-image:url(../images/th2.png);
+}
+.DIAGNOSTIC_test_details_one_mid:hover p{
+ color:var(--bg-cmn-1);
+ box-shadow: 0px 0px 4px 2px var(--bg-cmn-1);
+}
+.DIAGNOSTIC_test_details_one_mid p{
+    ont-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+/* diagonistic_section_end */
+/* book_an_appointment_section_start */
+.book_an_appointment_section_start{
+background-color: #FFF2F2;
+}
+.book_an_appointment_left{
+
+}
+.book_an_appointment_left_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #2B2B2B;
+}
+.book_an_appointment_left_para{
+
+}
+.book_an_appointment_left_para p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    color: #000000;
+}
+.book_an_appointment_left_time_zone{
+
+}
+.book_an_appointment_left_time_zone .svg-inline--fa {
+    color:var(--bg-cmn-1);
+}
+.book_an_appointment_left_time_zone p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.book_an_appointment_left_btn{
+
+}
+.book_an_appointment_left_btn .btn{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color:var(--bg-cmn-1);
+    text-align:center;
+    width: 70%;
+
+}
+.book_an_appointment_left_btn .btn:hover{
+background-color:var(--bg-cmm-4);
+}
+/* left_section_end */
+.book_an_appointment_right{
+
+}
+/* book_an_appointment_section_end */
+/* pharmacy_section_start */
+.pharmacy_section_start{
+
+}
+.pharmacy_section_title{
+ text-align: right;
+}
+.pharmacy_section_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+/* pharmacy_section_title_search_start */
+.pharmacy_section_title_search{
+ text-align: right;
+}
+.pharmacy_section_title_search .form-control{
+width: 70%;
+border-radius: 24.5px;
+border: 1px solid var(--cmn-border);
+display: inline-block;
+padding-left: 40px;
+
+}
+.pharmacy_section_title_search input::placeholder{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6C6C6C;
+
+}
+.pharmacy_title_search_main{
+    position: relative;
+}
+.pharmacy_title_icon{
+position: absolute;
+top:14%;
+left: 32%;
+bottom: 0%;
+right: 80%;
+}
+.pharmacy_title_icon .svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 1.5em;
+    overflow: visible;
+    vertical-align: middle;
+    color: #6C6C6C;
+
+}
+/* pharmacy_section_title_search_end */
+/* .pharmacy_section_medicine_start */
+.pharmacy_section_medicine_start{
+
+}
+/* pharmacy_section_medicine_end */
+.pharmacy_sec_medicine_details_section{
+
+}
+.pharmacy_sec_medicine_details_slider{
+
+}
+.pharmacy_sec_med_slider_one{
+ text-align: center;
+}
+.pharmacy_sec_med_slider_one:hover{
+    opacity: 0.8;
+   background-color:var(--bg-cmm-4);
+   border-radius:10px;
+   transition: 0.7s;
+}
+.pharmacy_sec_med_slider_one_img {
+position: relative;
+}
+.pharmacy_sec_med_slider_one_btn{
+position:absolute;
+right: 11%;
+bottom: 4%;
+
+}
+.pharmacy_sec_med_slider_one_btn .btn{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #0500FF;
+    background-color: #FFC408;
+    padding: 4px 20px;
+    border-radius: 20px;
+}
+.pharmacy_sec_med_slider_one_para{
+}
+.pharmacy_sec_med_slider_one_para p{
+margin: 0px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+/* pharmacy_section_end */
+
+/* our_client_section_start */
+.our_client_section_start{
+background-color: #FFF2F2;
+}
+.our_client_section_title{
+ text-align: center;
+}
+.our_client_section_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+.our_client_section_slider{
+
+}
+.our_client_section_slider_main{
+
+}
+.our_client_section_slider_main_one{
+ text-align: center;
+}
+/* our_client_section_end */
+
+
+/* Naviea_support_services_section_start */
+.naviea_support_section{
+position: relative;
+height:auto;
+}
+.naviea_support_section::before{
+    content: "";
+    background-image: url("../images/service1.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.3;
+}
+.naviea_support_section_title{
+ text-align: center;
+ position: relative;
+}
+.naviea_support_section_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin: 0px;
+    color:var(--banner_text-color);
+}
+.naviea_support_section_title hr{
+border: none;
+display: inline-block;
+height: 2px;
+width: 20%;
+background-color:white;
+margin-top: 10px;
+opacity:1;
+}
+.naviea_support_details{
+ background-color:#000;
+}
+.naviea_support_details_left{
+ position: relative;
+}
+.naviea_support_details_left_one{
+ display: flex;
+ align-items: center;
+
+ justify-content:center;
+}
+.naviea_support_details_left_one_img{
+
+}
+.naviea_support_details_left_one_img .svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+    border: 1px solid var(--bg-cmn-1);
+    padding: 10px;
+    border-radius: 50%;
+    color:var(--bg-cmn-1);
+}
+.naviea_support_details_left_one_para{
+
+}
+.naviea_support_details_left_one_para p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 230.8%;
+    color: #000000;
+    margin: 0px;
+    text-transform: capitalize;
+    color:white;
+}
+/* left_end */
+/* Naviea_support_services_section_end */
+/* telemedicine_section_start */
+.telemedicine_section_start{
+
+}
+.telemedicine_section_title{
+text-align: center;
+}
+.telemedicine_section_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+/* telemedicine_details_start */
+.telemedicine_details_start{
+
+}
+.telemedicine_details_left{
+
+}
+/* telemedicine_details_end */
+/* telemedicine_section_end */
+
+/* help_package_section_start */
+.help_package_section_start{
+background-color: #FFF2F2;
+}
+.help_package_section_title{
+ text-align: center;
+}
+.help_package_section_title h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+.help_package_details_one{
+background-color: white;
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.help_package_details_one:hover{
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.help_package_details_one:hover .help_package_details_one_para_btn .btn{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.help_package_details_one_img{
+
+}
+.help_package_details_one_para{
+
+}
+.help_package_details_one_para p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0px;
+}
+.help_package_details_one_para ul{
+list-style:disc;
+}
+.help_package_details_one_para ul li {
+
+}
+.help_package_details_one_para ul li a {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    color: #000000;
+}
+.help_package_details_one_para h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    color: #000000;
+    margin: 0px;
+}
+.help_package_details_one_para_btn{
+
+}
+.help_package_details_one_para_btn .btn{
+    background: #F9F9F9;
+    border: 1px solid #FF8080;
+    box-shadow: inset 0px 0px 15px #EE9999;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 600;
+}
+/* help_package_section_end */
+/* help_package_btn_section */
+
+/* icu_AC_section_start */
+.icu_AC_section_start{
+
+}
+.icu_AC_section_title{
+
+}
+.icu_AC_section_title .nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.icu_AC_section_title .nav-item{
+border: 1px solid var(--cmn-border);
+margin: 0px 8px;
+}
+.icu_AC_section_title .nav-link{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+    background-color:var(--bg-cmn-1);
+    border-radius:0;
+    border: none;
+}
+/* title_end */
+.icu_AC_section_details{
+
+}
+.icu_AC_section_details_main{
+
+}
+.icu_AC_section_details_main_one{
+
+}
+.icu_AC_section_details_main_one_left{
+
+}
+.icu_AC_section_details_main_one_left h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #2B2B2B;
+}
+.icu_AC_section_details_main_one_left ul{
+list-style: disc;
+}
+.icu_AC_section_details_main_one_left ul li{
+
+}
+.icu_AC_section_details_main_one_left ul li a{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+}
+.icu_AC_section_details_main_one_left p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00A662;
+}
+.icu_AC_section_details_main_one_left_btn{
+
+}
+.icu_AC_section_details_main_one_left_btn .btn{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124.5%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    border: 1px solid var(--cmn-border);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    width:40%;
+}
+:focus{
+    outline:transparent auto 1px;
+}
+.icu_AC_section_details_main_one_left_btn .btn:hover{
+background-color:var(--bg-cmn-1);
+color:white;
+}
+/* left_end */
+.icu_AC_section_details_main_one_right{
+ text-align: right;
+}
+/* icu_AC_section_end */
+/* our_partner_section_start */
+.our_partner_section_start{
+
+}
+/* our_partner_section_end */
+/* map_direction_section_start */
+.map_direction_section{
+background-color: #FFF2F2;
+}
+.map_direction_mid{
+/* background-color: #FF8080; */
+}
+.map_direction_mid_left{
+text-align: center;
+}
+.map_direction_mid_left h4{
+margin: 0px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+.map_direction_mid_left p{
+margin: 0px;
+font-family: 'Josefin Sans';
+color: #000000;
+}
+/* left_end */
+.map_direction_mid_right{
+ text-align: center;
+}
+.map_direction_mid_right h4{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.map_direction_mid_right .btn{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid var(--bg-cmn-1);
+    color: #000000;
+    width: 40%;
+}
+.map_direction_mid_right .btn:hover{
+background-color:var(--bg-cmn-1);
+transition: 0.7s;
+color: white;
+}
+/* map_direction_section_end */
+/* footer_section_start */
+.footer_section_start{
+background-color:var(--bg-cmn-1);
+}
+.footer_section_logo{
+
+}
+.footer_section_midddle{
+
+}
+.footer_section_midddle_one{
+
+}
+.footer_section_midddle_one h5{
+    color: white;
+    font-weight: normal;
+}
+.footer_section_midddle_one p{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FDFDFD;
+margin: 0px;
+}
+
+/* we_accept_section */
+.we_accept_section_main{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.we_accept_section_main p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FDFDFD;
+    margin: 0px;
+}
+.we_accept_section_main_copy_right{
+ text-align: center;
+}
+.we_accept_section_main_copy_right a{
+    color: #FDFDFD;
+    font-family: 'Lateef';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+.we_accept_section_main_copy_right p{
+    color: #FDFDFD;
+    font-family: 'Lateef';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+/* footer_section_end */
+/* login_page_start */
+.login_page_start{
+background-color:var(--bg-cmn-2);
+}
+.login_page_start_main{
+background-color:var(--bg-cmn-2);
+padding: 40px;
+box-shadow: 0px 5px 15px rgba(145, 145, 145, 0.5);
+border-radius: 14px;
+}
+.login_page_start_main_up{
+text-align: center;
+}
+.login_page_start_main_up .svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 2.5em;
+    overflow: visible;
+    vertical-align: -.125em;
+    border: 1px solid var(--bg-cmn-1);
+    padding: 22px;
+    border-radius: 50%;
+    /* box-shadow: 7px 7px 10px #0060b7, -7px -7px 10px #0060b7; */
+     box-shadow: 7px 7px 10px var(--bg-cmn-1), -7px -7px 10px var(--bg-cmn-1);
+     color:var(--bg-cmn-1);
+}
+.login_page_start_main_up h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.login_page_start_main_middle{
+
+}
+.login_page_start_main_middle .user_label{
+    font-size: 13px;
+    font-weight:normal;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 8px;
+}
+.login_page_start_main_middle .user_form_control{
+    color: #000;
+    background: #ecf0f3;
+    font-size: 15px;
+    height: 50px;
+    padding: 20px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #d3d7df;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.login_page_start_main_middle .user_form_control:focus{
+    box-shadow: 0 0 0 0.25rem transparent;
+
+}
+/* middle_end */
+.login_page_start_main_bottom{
+
+}
+.login_page_start_main_bottom .btn{
+    color: #fff;
+    background-color:var(--bg-cmn-1);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px 15px 11px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #d3caca, -6px -6px 6px #e6e0e0;
+    border: none;
+    transition: all 0.5s ease 0s;
+    font-family: 'Poppins', sans-serif;
+}
+/* login_page_end */
+/* find_a_doctor_section_start */
+.find_doctor_section_start{
+
+}
+.find_doctor_section_start_left{
+
+}
+.find_doctor_section_start_left_up{
+ background-color: var(--bg-cmm-3);
+}
+.find_doctor_section_start_left_up_one{
+
+}
+.find_doctor_section_start_left_up_one h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.find_doctor_section_start_left_up_one .user_form_select{
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+color: #6C6C6C;
+box-shadow: none;
+}
+.user_form_select option{
+
+}
+.find_doctor_section_start_left_up_two{
+
+}
+.find_doctor_section_start_left_up_two .user_label_2{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+}
+.find_doctor_section_start_left_up_two .user_form_control_2{
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.find_doctor_section_start_left_up_three{
+
+}
+.find_doctor_section_start_left_up_three .btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background:var(--btn-cmm-1);
+    border-radius: 5px;
+    width: 30%;
+}
+.find_doctor_section_start_left_down{
+ text-align: center;
+background-image: url("../images/kk.png");
+background-color: #000000;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+opacity: 0.7;
+border-radius: 6px;
+}
+.find_doctor_section_start_left_down h3{
+margin: 0px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+color: #2B2B2B;
+}
+.find_doctor_section_start_left_down h5{
+margin: 0px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+}
+.find_doctor_section_start_left_down p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+.find_doctor_section_start_left_down_icon{
+
+}
+.find_doc_left_down_icon_one{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.find_doctor_section_start_left_down .btn{
+    background: #FF8080;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #000000;
+    border-radius: 16px;
+    width: 40%;
+}
+/* left_end */
+.find_doctor_section_start_right{
+}
+.find_doctor_right_m_one{
+    background-color: var(--bg-cmm-3);
+}
+.f_right_left{
+background-color:var(--bg-cmm-4);
+}
+/* f_right_right_section_start */
+.f_right_right_section{
+
+}
+.f_right_right_title{
+display: flex;
+justify-content: space-between;
+}
+.f_right_right_title_left{
+
+}
+.f_right_right_title_left h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #DF3030;
+    margin: 0px;
+}
+.f_right_right_title_right{
+
+}
+.f_right_right_section_para{
+
+}
+.f_right_right_section_para p{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+margin: 0px;
+}
+.f_right_right_btn{
+
+}
+.f_right_right_btn .btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000;
+    background:var(--btn-cmm-1);
+border-radius: 21.5px;
+}
+/* f_right_right_section_end */
+/* find_a_doctor_section_end */
+/* doctor_profile_page_start */
+.doctor_profile_page_start{
+background-color:var(--bg-cmm-3);
+}
+.doctor_profile_page_left{
+text-align: center;
+}
+.doctor_profile_page_left h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    color:var(--bg-cmm-5);
+}
+.doctor_profile_page_left h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight:normal;
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0px;
+}
+.doctor_profile_page_left p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight:normal;
+}
+.doctor_profile_page_left_img{
+
+}
+.doctor_profile_page_left_img p{
+    margin: 0px;
+}
+.doctor_profile_page_left_btn{
+
+}
+.doctor_profile_page_left_btn .btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* color: #000000; */
+    background:var(--bg-cmm-5);
+    border-radius: 21.5px;
+    width: 40%;
+}
+/* left_end */
+.doctor_profile_page_right{
+ text-align: center;
+}
+/* doctor_profile_page_end */
+/* board_certificate_section_start */
+.board_certificate_section_start{
+
+}
+.board_certificate_main{
+
+}
+.board_certificate_main_one{
+
+}
+.board_certificate_main_one h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2B2B2B;
+}
+.board_certificate_main_one_im{
+
+}
+.board_certificate_main_one_im ul{
+list-style-type:circle;
+}
+.board_certificate_main_one_im ul li{
+
+}
+.board_certificate_main_one_im ul li a{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2B2B;
+    text-transform: capitalize;
+}
+/* board_certificate_section_end */
+/* get_appointment_page_start */
+.get_appointment_page_start{
+
+}
+.get_appointment_page_main{
+text-align: center;
+}
+.get_appointment_page_main h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight:600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--bg-cmm-5);
+}
+.get_appointment_page_main p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight:normal;
+    font-size:16px;
+    line-height: 25px;
+    margin: 0px;
+}
+.get_appointment_page_main_img{
+
+}
+.get_appointment_page_main hr{
+    opacity: 1;
+}
+/* get_appont_details_start */
+.get_appointment_page_d_left{
+
+}
+.get_appointment_page_d_left h5{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+}
+.get_appointment_page_d_left_input{
+
+}
+.get_appointment_page_d_left_input input{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+.get_appointment_page_d_left_input input::placeholder{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+.rcmm_input_bg{
+background-color:#E0E0E0;
+}
+/* left_end */
+.get_appointment_page_d_right{
+
+}
+.get_appointment_page_d_right h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.get_appointment_page_d_right_select{
+
+}
+.get_appointment_page_d_right_select .get_appoint_from{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+/* left_end */
+.get_appointment_page_d_right_btn{
+ text-align:right;
+}
+.get_appointment_page_d_right_btn .btn{
+    background-color: var(--btn-cmm-2);
+    border-radius: 5px;
+    width: 50%;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+color:var(--bg-acc-1);
+
+}
+/* get_appointment_page_end */
+/* get_appointment_2_date_time_section_start */
+.get_appointment_date_time_section{
+ text-align: center;
+}
+.get_appointment_date_time_section h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #6C6C6C;
+    margin: 0px;
+}
+.get_appointment_2_details{
+background-color:var( --bg-cmmn-6);
+border: 1px solid #6C6C6C;
+}
+.get_appointment_2_details_title{
+
+}
+.get_appointment_2_details_title h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color: #2B2B2B;
+}
+.get_appointment_2_details_title p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #2B2B2B;
+}
+.get_appointment_2_d_t_d{
+display: flex;
+justify-content:first;
+}
+.patient_infor_left{
+
+}
+.patient_infor_left_one{
+
+}
+.patient_infor_left_one input:focus{
+box-shadow: none;
+}
+.patient_infor_left_one input{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+
+    }
+.patient_infor_left_one input::placeholder{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+/* left_end */
+.patient_infor_right{
+
+}
+.patient_infor_right_one{
+
+}
+.patient_i_t_o_cus{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+.patient_i_t_o_cus:focus{
+    box-shadow:none;
+}
+.patient_infor_right_two{
+
+}
+.patient_infor_full_form{
+
+}
+.patient_infor_full_form textarea::placeholder{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+.patient_infor_full_form textarea:focus{
+    box-shadow:none;
+}
+/* get_appointment_2_date_time_section_end*/
+/* have_you_ever_applied_section_start */
+.have_you_ever_applied_section_start{
+
+}
+.have_you_ever_tile{
+ text-align: center;
+}
+.have_you_ever_tile h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.have_you_ever_tile_select{
+display: flex;
+justify-content: center;
+}
+.have_you_ever_tile_select p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.have_you_ever_tile_select_btn{
+ text-align: center;
+}
+.have_you_ever_tile_select_btn .btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #00A662;
+    width:50%;
+    border-radius: 33.5px;
+    color: #FDFDFD;
+}
+/* have_you_ever_applied_section_end */
+/* patient_verify_section_start */
+.patient_verify_page{
+
+}
+.patient_verify_page_main{
+
+}
+.patient_verify_page_main_up{
+ text-align: center;
+}
+.patient_verify_page_main_up h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0px;
+}
+.patient_verify_page_main_up input{
+border-color: var(--bg-cmm-5);
+}
+.patient_verify_page_main_up input:focus{
+box-shadow: none;
+border-color:var(--bg-cmm-5);
+}
+.patient_verify_page_main_up input::placeholder{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+.patient_verify_page_main_up .btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    background-color:var(--btn-cmm-1);
+}
+/* patient_verify_section_end */
+/* successfully_appoint_page_start */
+.successfully_appoint_page_start{
+
+}
+.successfully_appoint_main{
+
+}
+.successfully_appoint_main_title{
+ text-align: center;
+}
+.successfully_appoint_main_title h4{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--bg-cmm-5);
+}
+.successfully_appoint_mid{
+text-align: center;
+border: 1px solid var(--btn-cmm-bla);
+}
+.successfully_appoint_mid h5{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--bg-cmm-5);
+}
+.successfully_appoint_mid p{
+margin: 0px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+.successfully_appoint_mid h3{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+color: var(--btn-cmm-bla);
+}
+.successfully_appoint_btn{
+ text-align: center;
+}
+.successfully_appoint_btn .btn{
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 16px;
+color: var(--btn-cmm-bla);
+width: 30%;
+border: 1px solid var(--btn-cmm-bla);
+}
+/* successfully_appoint_page_end */
+/* room_page_start */
+.room_page_start{
+
+}
+.room_page_title{
+ text-align: center;
+}
+.room_page_title h2{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    color:var(--bg-cmn-1);
+}
+.room_page_details_left{
+
+}
+.room_page_details_left_up{
+
+}
+.room_page_details_left_up h5{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--bg-cmn-1);
+}
+.room_page_details_left_details{
+    border:1px solid var(--bg-cmn-1);
+}
+.room_page_details_left_details_title{
+    border-radius: 10px;
+}
+.room_page_de_left_left{
+
+}
+.room_title_bg{
+background-color:var(--room_title_bg);
+}
+.room_title_bg2{
+background-color:var(--room_title_bg2)
+}
+.room_title_bg3{
+background-color:var(--room_title_bg3)
+}
+.room_page_de_left_left h3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+}
+.room_page_details_left_main{
+
+}
+.room_page_details_left_main_left{
+
+}
+.room_page_details_left_main_left p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.room_page_details_left_main_right{
+
+}
+.room_page_details_left_main_right p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+/* left_end */
+.room_page_details_right{
+
+}
+.room_page_details_right_one{
+
+}
+.r_p_d_o_img{
+
+}
+.room_page_details_right_one p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+.room_page_details_right_one_btn .btn{
+    background-color: var(--bg-cmn-1);
+    border-radius: 5px;
+    width: 35%;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+/* right_end */
+/* room_page_end */
+/* room_two_page_start */
+
+
+/* room_2_page_end */

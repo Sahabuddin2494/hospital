@@ -1,0 +1,168 @@
+
+@media (min-width:1200px) and (max-width:1398.98px){
+
+    .header_section_main ul .nav-item .nav-link {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .header_section_main .nav-item .dropdown-menu .dropdown-item{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+        letter-spacing: 0.02em;
+        padding: 10px 10px;
+        text-transform: uppercase;
+        color: white;
+     }
+
+}
+
+@media (min-width:992px) and (max-width:1198.98px){
+    .header_section_main ul .nav-item .nav-link {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .header_section_main .nav-item .dropdown-menu .dropdown-item{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+        letter-spacing: 0.02em;
+        padding: 10px 10px;
+        text-transform: uppercase;
+        color: white;
+     }
+
+}
+@media (min-width:768px) and (max-width:991.98px){
+
+    .banner_section_start{
+        position: relative!important;
+        height: auto;
+    }
+    .pharmacy_section_title{
+        text-align:left;
+       }
+       .get_appointment_page_d_right_btn{
+        text-align:center;
+       }
+}
+@media (min-width:576px) and (max-width:767.98px){
+
+    .banner_section_start{
+        position: relative!important;
+        height:auto;
+    }
+    .banner_section_r_one_para p {
+        font-size: 16px;
+    }
+    .pharmacy_section_title{
+        text-align:left;
+       }
+       .doctor_profile_page_left_btn .btn{
+        width:70%;
+    }
+    .get_appointment_page_d_right_btn .btn {
+        width: 100%;
+    }
+    .have_you_ever_tile_select_btn .btn{
+        width:100%;
+    }
+}
+@media (max-width:575px){
+
+    .banner_section_start{
+        position: relative!important;
+        height:auto;
+    }
+    .banner_section_r_one_para p {
+        font-size: 16px;
+    }
+    .pharmacy_section_title{
+        text-align:left;
+       }
+       .pharmacy_section_title_search input::placeholder{
+        font-size: 16px;
+        line-height: 27px;
+        color: #6C6C6C;
+    }
+    .pharmacy_title_icon {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        bottom: 0%;
+        right: 80%;
+    }
+    .pharmacy_section_title_search .form-control {
+        padding-left: 55px;
+        width: 100%;
+    }
+    .icu_AC_section_details_main_one_left ul li a {
+        font-size: 14px;
+    }
+    .icu_AC_section_details_main_one_left h4 {
+        font-size: 23px;
+        line-height: 43px;
+    }
+    .icu_AC_section_details_main_one_left_btn .btn {
+        font-size: 14px;
+    }
+    .icu_AC_section_details_main_one_left_btn {
+        text-align: center;
+    }
+    .doctor_profile_page_left_btn .btn{
+        width:100%;
+    }
+    .get_appointment_page_d_right_btn .btn {
+        width: 100%;
+    }
+    .have_you_ever_tile_select_btn .btn{
+        width:100%;
+    }
+    .banner_section_left_title h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .banner_left_tab_one_icon p {
+        font-size: 16px;
+    }
+    .know_about_naviea_title h4 {
+        font-size: 20px;
+    }
+    .diagonistic_section_title h4 {
+        font-size: 20px;
+    }
+    .DIAGNOSTIC_test_d_up .d_text_title {
+        font-size: 16px;
+    }
+    .DIAGNOSTIC_test_d_up .d_text_title_li {
+        margin: 2px;
+    }
+    .telemedicine_section_title h4 {
+        font-size: 20px;
+    }
+    .book_an_appointment_left_title h4 {
+        font-size: 20px;
+    }
+    .help_package_section_title h4 {
+        font-size: 20px;
+    }
+    .room_page_details_right_one_btn .btn {
+        width:100%;
+    }
+}
